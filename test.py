@@ -22,5 +22,8 @@ os.chdir("my_package/subpkg1")
 os.system("python3 mod_x.py")
 
 print("~~~~~~~~~~~~~SUCCESS:~~~~~~~~~~~~~~~")
-
 os.system("python3 mod_x_fix.py")
+
+print("~~~~~~~~~~~~~INTERACTIVE:~~~~~~~~~~~~~~~")
+from my_package.subpkg1.mod_x import *
+main()
