@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f35904a-a050-40ef-a817-4455818cff29" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_package/subpkg1/mod_x.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_package/subpkg1/mod_x.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -49,9 +50,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mod_x.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mod_x.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my_package/subpkg1/mod_x.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="mod_y.py" pinned="false" current-in-tab="false">
@@ -74,6 +79,7 @@
         <option value="$PROJECT_DIR$/mod2/deep2/code4.py" />
         <option value="$PROJECT_DIR$/topscript.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/my_package/subpkg1/mod_x.py" />
       </list>
     </option>
   </component>
@@ -221,13 +227,17 @@
     <entry file="file://$PROJECT_DIR$/my_package/subpkg1/mod_y.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_package/subpkg1/mod_x.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_package/subpkg1/mod_x.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
