@@ -12,20 +12,24 @@ In [3]: my_package.subpackage1.module_x.main()
 spam spam spam
 """
 
-import my_package
-print (my_package.subpkg1.mod_x) 
-my_package.subpkg1.mod_x.main()
+import subpkg1
+print (subpkg1)
+import subpkg2
+#
+print (subpkg1.mod_x)
+subpkg1.mod_x.main()
 
 # print("~~~~~~~~~~~~~FAILURE:~~~~~~~~~~~~~~~")
 # import os
-# os.chdir("my_package/subpkg1")
+# os.chdir("subpkg1")
 # os.system("python3 mod_x.py")
 
 print("~~~~~~~~~~~~~SUCCESS:~~~~~~~~~~~~~~~")
 import os
-os.chdir("my_package/subpkg1")
+os.chdir("subpkg1")
 os.system("python3 mod_x_fix.py")
 
 print("~~~~~~~~~~~~~INTERACTIVE:~~~~~~~~~~~~~~~")
-from my_package.subpkg1.mod_x import *
+
+from subpkg1.mod_x import *
 main()
